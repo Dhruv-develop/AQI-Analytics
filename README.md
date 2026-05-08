@@ -1,16 +1,24 @@
-# 🌍 Air Quality Monitoring & Pollution Insight
+# 🌍 Air Quality Monitoring & Analysis
 
 A complete **Data Analytics & Visualization Project** focused on analyzing **Air Quality Index (AQI)** trends, pollutant impact, and health-risk patterns across Indian cities using **Python, SQL, Power BI, and Excel**.
+
+The project aims to identify:
+- Major pollutants affecting AQI
+- High-risk pollution zones
+- Long-term air quality trends
+- Seasonal pollution patterns
+- Health-related pollution insights
 
 ---
 
 # 📌 Project Objectives
 
-- Analyze AQI trends across cities
-- Identify dominant pollutants affecting AQI
+- Analyze AQI trends across cities and regions
+- Identify dominant pollutants affecting air quality
 - Detect high-risk pollution zones
 - Compare gaseous vs particulate pollutants
-- Build interactive dashboards for monitoring and insights
+- Build interactive dashboards for monitoring and decision-making
+- Perform advanced data analysis using Python and SQL
 
 ---
 
@@ -25,37 +33,78 @@ A complete **Data Analytics & Visualization Project** focused on analyzing **Air
 
 ---
 
-# 📊 Dashboard 1: National Air Quality Monitoring Dashboard
+# 📊 Dashboard Overview
 
-## Features
+The project features **four distinct dashboard layouts** designed for different analytical perspectives and stakeholders.
+
+---
+
+# 📍 Power BI Dashboard 1: National Air Quality Monitoring
+
+### Features
 - City-wise AQI Heatmap
-- AQI Bucket Distribution
+- AQI Bucket Distribution Across Regions
 - Pollutant-wise AQI Impact Visualization
-- Most Polluted & Cleanest City
 - Interactive City & Date Filters
 - AQI KPI Monitoring
+- Regional Pollution Comparison
 
-## Dashboard Preview
+### Dashboard Preview
 
 ```markdown
-![National AQI Dashboard](images/dashboard1.png)
+![Power BI Dashboard 1](images/powerbi_dashboard1.png)
 ```
 
 ---
 
-# 📊 Dashboard 2: Health Risk & Pollution Insights
+# 📍 Power BI Dashboard 2: Health Risk & Pollution Insights
 
-## Features
-- High-Risk Cities Analysis
+### Features
+- High-Risk Cities Identification
 - Dominant Pollutants Causing Poor AQI
 - Long-Term AQI Trend Analysis
 - Gaseous vs Particulate Pollutant Comparison
-- AQI Severity & Health Risk Insights
+- AQI Severity & Health Risk Visualization
+- Pollution Pattern Insights
 
-## Dashboard Preview
+### Dashboard Preview
 
 ```markdown
-![Health Risk Dashboard](images/dashboard2.png)
+![Power BI Dashboard 2](images/powerbi_dashboard2.png)
+```
+
+---
+
+# 📍 Excel Dashboard 1: City-wise AQI Overview
+
+### Features
+- Average AQI Comparison by City
+- Top & Bottom Performing Cities
+- AQI KPI Summary
+- Pollution Severity Comparison
+- Interactive Charts & Filters
+
+### Dashboard Preview
+
+```markdown
+![Excel Dashboard 1](images/excel_dashboard1.png)
+```
+
+---
+
+# 📍 Excel Dashboard 2: Pollutant Trend Analysis
+
+### Features
+- Time-Series AQI Trends
+- Seasonal Pollution Impact Analysis
+- Pollutant Contribution Trends
+- AQI Pattern Visualization
+- Comparative Pollutant Analysis
+
+### Dashboard Preview
+
+```markdown
+![Excel Dashboard 2](images/excel_dashboard2.png)
 ```
 
 ---
@@ -63,59 +112,72 @@ A complete **Data Analytics & Visualization Project** focused on analyzing **Air
 # 🧪 Python & SQL Analysis
 
 ## Python Analysis
-- Data Cleaning
+- Data Cleaning & Preprocessing
 - Missing Value Handling
 - Outlier Detection
-- AQI Trend Analysis
+- AQI Distribution Analysis
 - Pollutant Contribution Analysis
 - Correlation Analysis
+- Trend & Seasonal Analysis
 
 ## SQL Analysis
-- Data Validation
+- Raw Data Validation
 - Duplicate Detection
 - Window Functions
 - City-wise AQI Ranking
 - Moving Average AQI
 - Summary Table Generation
+- Advanced Query Analysis
 
 ---
 
 # 📈 Key Insights
 
-- PM10 and PM2.5 are dominant pollutants
-- Particulate pollutants affect AQI more than gaseous pollutants
-- Ahmedabad recorded the highest AQI levels
-- Aizawl appeared as one of the cleanest cities
-- AQI trends showed gradual decline after 2018
+- PM10 and PM2.5 are the dominant pollutants affecting AQI
+- Particulate pollutants have greater impact than gaseous pollutants
+- Several cities consistently fall under poor AQI categories
+- AQI trends indicate seasonal pollution spikes
+- Data cleaning significantly improved analysis consistency
 
 ---
 
 # ▶️ How to Run
 
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run Notebook
+## Run Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-## Open Power BI Dashboards
+---
 
-Open `.pbix` files using Power BI Desktop.
+## SQL Setup
+
+1. Open MySQL Workbench
+2. Create a database
+
+```sql
+CREATE DATABASE aqi_project;
+```
+
+3. Select the database
+
+```sql
+USE aqi_project;
+```
+
+4. Import and run the SQL file:
+
+```sql
+aqi_project.sql
+```
 
 ---
 
-# 🚀 Future Enhancements
+## Open Dashboards
 
-- Real-time AQI monitoring
-- Machine Learning AQI prediction
-- Streamlit dashboard deployment
-- Pollution alert system
+- Open `.pbix` files using Power BI Desktop
+- Open Excel dashboard files using Microsoft Excel
 
 ---
 
@@ -124,11 +186,3 @@ Open `.pbix` files using Power BI Desktop.
 ### Dhruv Rapariya
 
 ---
-
-# ⭐ Project Highlights
-
-✔ End-to-End Data Analytics Project  
-✔ Python + SQL + Power BI Integration  
-✔ Interactive Dashboard Design  
-✔ Real-world AQI & Pollution Analysis  
-✔ Portfolio & Resume Ready
