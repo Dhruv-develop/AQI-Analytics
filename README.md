@@ -35,7 +35,7 @@ The project aims to identify:
 
 # 📊 Dashboard Overview
 
-The project features **four distinct dashboard layouts** designed for different analytical perspectives and stakeholders.
+The project features **four distinct dashboard layouts** designed for different analytical perspectives.
 
 ---
 
