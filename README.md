@@ -86,9 +86,9 @@ The project features **four distinct dashboard layouts** designed for different 
 
 ### Dashboard Preview
 
-```markdown
-![Excel Dashboard 1](Dashboard_Preview/excel_dashboard1.png)
-```
+<p align="center">
+  <img src="Dashboard_Preview/excel_dashboard1.png" width="700">
+</p>
 
 ---
 
@@ -103,9 +103,9 @@ The project features **four distinct dashboard layouts** designed for different 
 
 ### Dashboard Preview
 
-```markdown
-![Excel Dashboard 2](Dashboard_Preview/excel_dashboard2.png)
-```
+<p align="center">
+  <img src="Dashboard_Preview/excel_dashboard2.png" width="700">
+</p>
 
 ---
 
