@@ -51,9 +51,9 @@ The project features **four distinct dashboard layouts** designed for different 
 
 ### Dashboard Preview
 
-```markdown
-![Power BI Dashboard 1](images/powerbi_dashboard1.png)
-```
+<p align="center">
+  <img src="Dashboard_Preview/powerbi_dashboard1.png" width="700">
+</p>
 
 ---
 
@@ -69,9 +69,9 @@ The project features **four distinct dashboard layouts** designed for different 
 
 ### Dashboard Preview
 
-```markdown
-![Power BI Dashboard 2](images/powerbi_dashboard2.png)
-```
+<p align="center">
+  <img src="Dashboard_Preview/powerbi_dashboard2.png" width="700">
+</p>
 
 ---
 
